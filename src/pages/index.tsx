@@ -9,7 +9,7 @@ export default function Home() {
 			<main>
 				{/* Section 1 */}
 				<div className='gradientBG relative overflow-hidden flex max-md:flex-col h-[calc(100vh-5rem)]'>
-					<div className='flex-1 p-8 md:p-20 lg:p-24 space-y-10 z-10 flex flex-col items-center md:items-start'>
+					<div className='flex-1 p-8 md:p-20 lg:p-24 space-y-10 z-10 flex flex-col justify-center items-center md:items-start'>
 						{/* App of the Day Image */}
 						<motion.div
 							className='appOfTheDayImg overflow-hidden h-24 w-56 bg-no-repeat'
@@ -85,8 +85,20 @@ export default function Home() {
 					</motion.div>
 				</div>
 				{/* Section 2 */}
-				<div className='flex flex-col md:flex-row h-screen'>
-					
+				<div className='flex flex-col md:flex-row'>
+					<Image className='absolute' alt='Phone Image' src="/assets/PhoneImage1.png" height={300} width={400} />
+					{/* <Image className='absolute' alt='Phone Image' src="/assets/PhoneImage2.png" height={300} width={400} /> */}
+					{/* <Image className='absolute' alt='Phone Image' src="/assets/PhoneImage3.png" height={300} width={400} /> */}
+					<div className="h-screen">
+						
+					</div>
+					<div className="h-screen">
+
+					</div>
+					<div className="h-screen">
+
+					</div>
+{}					
 				</div>
 			</main>
 		</AnimatePresence>
