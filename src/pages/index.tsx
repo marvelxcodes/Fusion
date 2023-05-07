@@ -8,8 +8,8 @@ export default function Home() {
 			<Header />
 			<main>
 				{/* Section 1 */}
-				<div className='gradientBG relative overflow-hidden flex max-md:flex-col h-[calc(100vh-5rem)]'>
-					<div className='flex-1 p-8 md:p-20 lg:p-24 space-y-10 z-10 flex flex-col items-center md:items-start'>
+				<div className='gradientBG relative overflow-hidden flex max-md:flex-col min-h-[calc(100vh-5rem)]'>
+					<div className='flex-1 p-8 md:p-20 lg:p-24 space-y-10 z-10 flex flex-col items-center justify-center md:items-start'>
 						{/* App of the Day Image */}
 						<motion.div
 							className='appOfTheDayImg overflow-hidden h-24 w-56 bg-no-repeat'
@@ -76,7 +76,7 @@ export default function Home() {
 						className='flex-1 grid place-items-center'
 					>
 						<Image
-							className='absolute top-0 opacity-60 md:inset-0 z-0 md:relative'
+							className='max-md:absolute bottom-0 opacity-60 md:inset-0 z-0'
 							alt='product image'
 							height={500}
 							width={500}
