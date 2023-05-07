@@ -85,7 +85,9 @@ export default function Home() {
 					</motion.div>
 				</div>
 				{/* Section 2 */}
-				<div className='flex flex-col md:flex-row h-screen'></div>
+				<div className='flex flex-col md:flex-row h-screen'>
+					
+				</div>
 			</main>
 		</AnimatePresence>
 	);
